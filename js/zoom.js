@@ -1,4 +1,3 @@
-
 var zoom_val = 100;
 
 $( "#zoom_up" ).click(function() {

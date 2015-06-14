@@ -1,6 +1,7 @@
 body{
 	background-color: white;
 	min-width:500px;
+	font-family: 'Arvo', serif;
 }
 
 img{
@@ -20,6 +21,12 @@ iframe{
 	height: 625px;
 }
 
+#notice{
+	text-align: center;
+	margin-left: auto; 
+	margin-right: auto; 	
+}
+
 #zoom{
 	opacity: 0.1;
 	position: fixed;
@@ -28,4 +35,8 @@ iframe{
 
 #zoom_up, #zoom_down{
 	max-width: 45px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
 }
