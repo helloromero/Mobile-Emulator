@@ -1,42 +1,69 @@
-body{
-	background-color: white;
-	min-width:500px;
-	font-family: 'Arvo', serif;
+body {
+    background-color: white;
+    min-width: 500px;
+    font-family: 'Arvo', serif;
 }
 
-img{
-	width:400px; 
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto;
+
+
+button {
+    width: 45px;
+    height: 45px;
 }
 
-iframe{
-	border:none; 
-	display: block; 
-	margin-left: auto; 
-	margin-right: auto; 
-	margin-top: -704px;
-	width: 352px;
-	height: 625px;
+.iframe_portrait {
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -704px;
+    width: 352px;
+    height: 625px;
 }
 
-#notice{
-	text-align: center;
-	margin-left: auto; 
-	margin-right: auto; 	
+.img_portrait {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#zoom{
-	opacity: 0.1;
-	position: fixed;
-	right: 0;
+#notice {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#zoom_up, #zoom_down{
-	max-width: 45px;
+#controls {
+    opacity: 0.1;
+    position: fixed;
+    right: 0;
+}
+
+#zoom_up,
+#zoom_down #reload,
+#go_back,
+#go_forward {
+    max-width: 45px;
+    display: inherit;
+}
+
+#line {
+    border-style: solid;
+    border-bottom: thick;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 ::-webkit-scrollbar {
     width: 0px;
+}
+
+.float_right {
+    text-align: right;
+}
+
+.forward_back_button {
+    margin-top: 9px;
+    background-color: rgba(255, 255, 255, 0);
 }
